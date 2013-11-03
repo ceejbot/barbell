@@ -24,13 +24,19 @@ Record a new workout.
 - Workout is the next one in the cycle.
 - If success in last iteration of the lift, weight is bumped up 5lbs/2.5 kg.
 
-At workout start, first set is shown. Name of lift in big type, followed by total weight. (Can even suggest exactly what weights to put on the bar.) After that "5 reps", then the button pair. This display should comfortably take up most of an iPhone screen.
+At workout start, the first lift is shown. Name in big type.
 
-Each set has a checkmark / cancel button pair next to it. The user presses checkmark to indicate success in all lifts, cancel to indicate failure. If failure, user can optionally enter how many reps were successes.s
+*First stage:* warm up. Warmup weight progression is suggested.  
 
-When button pressed, rest timer starts. Countdown + "stop and move on" button shown.
+*Second stage:* lift.
 
-At end of rest timer, next set is shown.
+A "start" button commences the set. The weight display switches to show the goal weight, with possibly a suggestion for which plates to put on the bar. After that "5 reps" or "3 reps", then the button pair. This display should comfortably take up most of an iPhone screen.
+
+Each set has a checkmark / cancel button pair next to it. The user presses checkmark to indicate success in all lifts, cancel to indicate failure. If failure, user can optionally enter how many reps were successes.
+
+*Third stage:* rest.  When the success/fail button is pressed, the rest timer starts. Countdown + "stop and move on" button shown.
+
+At end of rest stage, next set is shown.
 
 At end of workout, total time elapsed + congratulatory message.
 
@@ -59,7 +65,7 @@ User data:
 ```javascript
 {
     name: 'Human Name',
-    tz: offset-from-gmt,
+    tz: tz-name,
     workouts:
     {
         A: [ uid1, uid2, uid3 ],
