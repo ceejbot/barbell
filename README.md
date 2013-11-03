@@ -1,4 +1,4 @@
-# Barbell
+#  Barbell [![barbell](www/assets/barbell_logo.png)]
 
 A [hoodie](http://hood.ie/) app for tracking a 5x5 lifting program.
 
@@ -129,4 +129,13 @@ __A:__ squat, bench press, deadlift, 45# each.
 __B:__ squat, overhead press, pendlay row, 45# each.   
 
 Default measure: in pounds.
+
+
+## LICENSE
+
+MIT
+
+## Credits
+
+The logo image is by Scott Lewis from [The Noun Project](http://thenounproject.com/noun/weight-lifting/#icon-No883).
 
