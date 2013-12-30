@@ -1,17 +1,20 @@
 {
 	"name":         "barbell",
-	"version":      "1.0.1",
+	"version":      "0.0.1",
 	"description":  "track your 5x5 lifting program",
 	"keywords":     [ "weightlifting", "powerlifting", "5x5", "barbell", "exercise" ],
 	"type":         "app",
 	"author":       "C J Silverio <ceejceej@gmail.com>",
 	"license":      "MIT",
+	"bin":
+	{
+		"barbell" : "./bin/barbell.js"
+	},
 	"dependencies":
 	{
-		"hoodie-server":           "~0.8.14",
-		"hoodie-plugin-appconfig": "~0.1.0",
-		"hoodie-plugin-email":     "~0.1.1",
-		"hoodie-plugin-users":     "0.0.9"
+		"level":     "~0.18.0",
+		"lodash":    "~2.4.1",
+		"node-uuid": "~1.4.1"
 	},
 	"devDependencies":
 	{
@@ -19,28 +22,8 @@
 		"mocha": "*",
 		"less":  "*"
 	},
-	"subdomain": "hoodie-barbell",
-	"domains":
-	[
-		"admin.hoodie-barbell.jit.su",
-		"couch.hoodie-barbell.jit.su"
-	],
 	"scripts":
 	{
-		"start": "node node_modules/hoodie-server/bin/start"
 	},
-	"hoodie":
-	{
-		"plugins":
-		[
-			"hoodie-plugin-appconfig",
-			"hoodie-plugin-email",
-			"hoodie-plugin-users"
-		]
-	},
-	"repository":
-	{
-		"type": "git",
-		"url":  "git://github.com/ceejbot/barbell.git"
-	}
+	"repository": { "type": "git", "url":  "git://github.com/ceejbot/barbell.git" }
 }
