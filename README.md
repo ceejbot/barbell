@@ -1,4 +1,4 @@
-#  Barbell [![barbell](www/assets/barbell_logo.png)]
+#  Barbell [![barbell](img/barbell_logo.png)]
 
 A nodejs command-line tool for tracking a 5x5 lifting program.
 
@@ -17,6 +17,8 @@ Display in Metric vs American weights. (All weights recorded in pounds; conversi
 Rest time in milliseconds; defaults to 3 * 60 * 1000.
 
 #### Record a workout
+
+TODO: update this design for command-line-ness.
 
 Record a new workout. 
 
