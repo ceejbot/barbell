@@ -1,0 +1,19 @@
+{
+	"backsquat":    { "name": "back squat",  "start": 45, "intense": false },
+	"deadlift":     { "name": "deadlift",  "start": 45, "intense": true },
+	"benchpress":   { "name": "bench press",  "start": 45, "intense": false },
+	"OHP":          { "name": "overhead press",  "start": 45, "intense": false },
+	"pendlay":      { "name": "Pendlay row",  "start": 45, "intense": false },
+	"front-squat":  { "name": "front squat",  "start": 45, "intense": false },
+	"OHS":          { "name": "overhead squat",  "start": 45, "intense": false },
+	"power-clean":  { "name": "power clean",  "start": 45, "intense": true },
+	"good-morning": { "name": "good morning",  "start": 45, "intense": false },
+	"RFESS":        { "name": "split squat",  "start": 45, "intense": false },
+	"hip-bridge":   { "name": "hip bridge",  "start": 45, "intense": false },
+	"kb-swing":     { "name": "kb swing",  "start": 35, "intense": false },
+	"kb-snatch":    { "name": "kb snatch",  "start": 35, "intense": false },
+	"TGU":          { "name": "Turkish get-up",  "start": 35, "intense": true },
+	"push-press":   { "name": "push-press",  "start": 45, "intense": false },
+	"clean-jerk":   { "name": "clean & jerk",  "start": 45, "intense": true },
+	"snatch":       { "name": "snatch",  "start": 45, "intense": true }
+}

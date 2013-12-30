@@ -1,6 +1,6 @@
 #  Barbell [![barbell](www/assets/barbell_logo.png)]
 
-A [hoodie](http://hood.ie/) app for tracking a 5x5 lifting program.
+A nodejs command-line tool for tracking a 5x5 lifting program.
 
 Still in early development mode. 
 
@@ -89,15 +89,14 @@ Workout data structure:
     label: "A",
     ts: ms-since-epoch,
     lifts:
-    {
-        uid1:
-        {
+    [
+        { 
+            id: 'lift-id',
             weight: weight-in-lbs,
             done: boolean
         },
-        uid2: { weight: w, done: bool },
-        uid3: { weight: w, done: bool }
-    }
+        { id: 'id2', weight: w, done: bool }
+    ]
 }
 ```
 
