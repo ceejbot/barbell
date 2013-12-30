@@ -1,3 +1,9 @@
+function Workout()
+{
+}
+Workout.prototype.type = 'workout';
+
+
 var hoodie  = new Hoodie();
 
 hoodie.store.findAll('workout')
