@@ -12,9 +12,12 @@
 	},
 	"dependencies":
 	{
-		"level":     "~0.18.0",
-		"lodash":    "~2.4.1",
-		"node-uuid": "~1.4.1"
+		"ansi":         "~0.2.1",
+		"autocomplete": "~0.0.1",
+		"level":        "~0.18.0",
+		"lodash":       "~2.4.1",
+		"node-uuid":    "~1.4.1",
+		"optimist":     "~0.6.0"
 	},
 	"devDependencies":
 	{
@@ -24,6 +27,7 @@
 	},
 	"scripts":
 	{
+		"test": "mocha -R spec test/test*.js"
 	},
 	"repository": { "type": "git", "url":  "git://github.com/ceejbot/barbell.git" }
 }
