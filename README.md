@@ -1,5 +1,7 @@
 #  Barbell [![barbell](img/barbell_logo.png)]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ceejbot/barbell.svg)](https://greenkeeper.io/)
+
 A nodejs command-line tool for tracking a 5x5 lifting program.
 
 Still in early development mode. 
